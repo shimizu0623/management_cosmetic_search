@@ -5,41 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <!-- Extra details for Live View on GitHub Pages -->
-    <!-- Canonical SEO -->
-    <link rel="canonical" href="https://www.creative-tim.com/product/material-dashboard-laravel" />
-
-
-    <!--  Social tags      -->
-    <meta name="keywords" content="creative tim, html dashboard, laravel, html css dashboard laravel, web dashboard, bootstrap 4 dashboard laravel, bootstrap 4, css3 dashboard, bootstrap 4 admin laravel, material ui dashboard bootstrap 4 laravel, frontend, responsive bootstrap 4 dashboard, material design, material laravel bootstrap 4 dashboard">
-    <meta name="description" content="Material Dashboard Laravel is a Free Material Bootstrap Admin Preset for Laravel with a fresh, new design inspired by Google's Material Design.">
-
-
-    <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="Material Dashboard Laravel by Creative Tim">
-    <meta itemprop="description" content="Material Dashboard Laravel is a Free Material Bootstrap Admin Preset for Laravel with a fresh, new design inspired by Google's Material Design.">
-
-    <meta itemprop="image" content="https://s3.amazonaws.com/creativetim_bucket/products/154/opt_md_laravel_thumbnail.jpg">
-
-
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="product">
-    <meta name="twitter:site" content="@creativetim">
-    <meta name="twitter:title" content="Material Dashboard Laravel by Creative Tim">
-
-    <meta name="twitter:description" content="Material Dashboard Laravel is a Free Material Bootstrap Admin Preset for Laravel with a fresh, new design inspired by Google's Material Design.">
-    <meta name="twitter:creator" content="@creativetim">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/154/opt_md_laravel_thumbnail.jpg">
-
-
-    <!-- Open Graph data -->
-    <meta property="fb:app_id" content="655968634437471">
-    <meta property="og:title" content="Material Dashboard Laravel by Creative Tim" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://material-dashboard-laravel.creative-tim.com/" />
-    <meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/154/opt_md_laravel_thumbnail.jpg"/>
-    <meta property="og:description" content="Material Dashboard Laravel is a Free Material Bootstrap Admin Preset for Laravel with a fresh, new design inspired by Google's Material Design." />
-    <meta property="og:site_name" content="Creative Tim" />
     
     <title>{{ __('Material Dashboard Laravel - Free Frontend Preset for Laravel') }}</title>
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('material') }}/img/apple-icon.png">
@@ -52,20 +17,8 @@
     <link href="{{ asset('material') }}/css/material-dashboard.css?v=2.1.3" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="{{ asset('material') }}/demo/demo.css" rel="stylesheet" />
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-NKDMSK6');</script>
-      <!-- End Google Tag Manager -->
-
     </head>
   <body class="clickup-chrome-ext_installed">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
                   <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
               <input type="hidden" name="_token" value="NKN81BvuQSzEbJlULUVrTDRewUlcAIJhPbOwli18">            </form>
           <div class="wrapper ">
@@ -83,75 +36,9 @@
               <div class="sidebar-wrapper">
                 <ul class="nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="{{ route('home') }}">
-                      <i class="material-icons">dashboard</i>
-                        <p>{{ __('Dashboard') }}</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="collapse" href="#laravelExample" aria-expanded="true">
-                      <i><img style="width:25px" src="{{ asset('material') }}/img/laravel.svg"></i>
-                      <p>{{ __('Laravel Examples') }}
-                        <b class="caret"></b>
-                      </p>
-                    </a>
-                    <div class="collapse show" id="laravelExample">
-                      <ul class="nav">
-                        <li class="nav-item">
-                          <a class="nav-link" href="{{ route('profile.edit') }}">
-                            <span class="sidebar-mini"> UP </span>
-                            <span class="sidebar-normal">{{ __('User profile') }} </span>
-                          </a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="{{ route('user.index') }}">
-                            <span class="sidebar-mini"> UM </span>
-                            <span class="sidebar-normal"> {{ __('User Management') }} </span>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="{{ route('table') }}">
-                      <i class="material-icons">content_paste</i>
-                        <p>{{ __('Table List') }}</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="{{ route('typography') }}">
-                      <i class="material-icons">library_books</i>
-                        <p>{{ __('Typography') }}</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="{{ route('icons') }}">
-                      <i class="material-icons">bubble_chart</i>
-                      <p>{{ __('Icons') }}</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="{{ route('map') }}">
-                      <i class="material-icons">location_ons</i>
-                        <p>{{ __('Maps') }}</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="{{ route('notifications') }}">
-                      <i class="material-icons">notifications</i>
-                      <p>{{ __('Notifications') }}</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="{{ route('language') }}">
-                      <i class="material-icons">language</i>
-                      <p>{{ __('RTL Support') }}</p>
-                    </a>
-                  </li>
-                  <li class="nav-item active-pro{{ $activePage == 'upgrade' ? ' active' : '' }}">
-                    <a class="nav-link text-white bg-danger" href="{{ route('upgrade') }}">
-                      <i class="material-icons text-white">unarchive</i>
-                      <p>{{ __('Upgrade to PRO') }}</p>
+                    <a class="nav-link" href="{{ route('request') }}">
+                      <i class="material-icons">request1</i>
+                        <p>request2</p>
                     </a>
                   </li>
                 </ul>
@@ -214,7 +101,6 @@
           </p>
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
-          <a class="dropdown-item" href="{{ route('profile.edit') }}">Profile</a>
           <a class="dropdown-item" href="#">Settings</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">Log out</a>
@@ -280,8 +166,7 @@
             </div>
           </div>
           <div class="alert alert-danger">
-            <span style="font-size:18px;">
-              <b> </b> This is a PRO feature!</span>
+            <span style="font-size:18px;">This is a PRO feature!</span>
           </div>
       </div>
     </div>
