@@ -24,14 +24,16 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                    @foreach ($leaveReasons as $leaveReason)
                                         <tr>
                                             <td>
-                                            2020-02-24
+                                            {{$leaveReasons->leave_date}}
                                             </td>
                                             <td>
-                                            商品がなかった
+                                            {{$leaveReasons->reason}}
                                             </td>
                                         </tr>
+                                    @endforeach
                                     </tbody>
                                 </table>
                             </div>

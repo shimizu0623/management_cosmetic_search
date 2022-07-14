@@ -17,6 +17,9 @@ class RequestController extends Controller
     {
         $requests = Request::all();
         
-        return view('requests.index', ['requests' => $requests]);
+        return view('requests.index', [
+            'requests' => $requests, 
+            'title' => 'all requests',
+        ]);
     }
 }

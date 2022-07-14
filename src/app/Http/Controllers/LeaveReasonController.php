@@ -17,6 +17,8 @@ class LeaveReasonController extends Controller
     {
         $leaveReasons = LeaveReason::all();
         
-        return view('leaveReasons.index', ['leaveReasons' => $leaveReasons]);
+        return view('leaveReasons.index', [
+            'leaveReasons' => $leaveReasons
+        ]);
     }
 }
