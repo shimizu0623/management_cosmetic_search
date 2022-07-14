@@ -14,16 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	return view('welcome');
 });
 
+// Route::get('/', [App\Http\Controllers\RequestController::class, 'index'])->name('request');
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/requests', [App\Http\Controllers\RequestController::class, 'index'])->name('request');
-Route::get('/leave_requests', [App\Http\Controllers\LeaveReasonController::class, 'index'])->name('request');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/home', 'App\Http\Controllers\HomeController@index')->name('home')->middleware('auth');
+// Route::get('/home', 'App\Http\Controllers\HomeController@index')->name('home')->middleware('auth');
 
-// Route::group(['middleware' => 'auth'], function () {
-// });
+Route::group(['middleware' => 'auth'], function () {
+	Route::get('/requests', [App\Http\Controllers\RequestController::class, 'index'])->name('requests');
+	Route::get('/leave_reasons', [App\Http\Controllers\LeaveReasonController::class, 'index'])->name('leaveReason');		
+});
