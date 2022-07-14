@@ -214,7 +214,6 @@
           </p>
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
-          <a class="dropdown-item" href="{{ route('profile.edit') }}">Profile</a>
           <a class="dropdown-item" href="#">Settings</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">Log out</a>
@@ -289,30 +288,6 @@
 </div>
   <footer class="footer">
 <div class="container-fluid">
-  <nav class="float-left">
-    <ul>
-      <li>
-        <a href="https://www.creative-tim.com">
-            Creative Tim
-        </a>
-      </li>
-      <li>
-        <a href="https://creative-tim.com/presentation">
-            About Us
-        </a>
-      </li>
-      <li>
-        <a href="http://blog.creative-tim.com">
-            Blog
-        </a>
-      </li>
-      <li>
-        <a href="https://www.creative-tim.com/license">
-            Licenses
-        </a>
-      </li>
-    </ul>
-  </nav>
   <div class="copyright float-right">
     ©
     <script>
