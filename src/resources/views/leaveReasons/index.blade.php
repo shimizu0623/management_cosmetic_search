@@ -27,10 +27,10 @@
                                     @foreach ($leaveReasons as $leaveReason)
                                         <tr>
                                             <td>
-                                            {{$leaveReasons->leave_date}}
+                                            {{$leaveReason->leave_date}}
                                             </td>
                                             <td>
-                                            {{$leaveReasons->reason}}
+                                            {{$leaveReason->reason}}
                                             </td>
                                         </tr>
                                     @endforeach
