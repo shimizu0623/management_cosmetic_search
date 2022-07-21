@@ -11,11 +11,11 @@
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 
   <!-- Markazi Text font include just for persian demo purpose, don't include it in your project -->
-  <link href="https://fonts.googleapis.com/css?family=Cairo&amp;subset=arabic" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Cairo&amp;subset=arabic" rel="stylesheet">
 
   <!-- CSS Files -->
   <link href="{{ asset('material') }}/css/material-dashboard.css?v=2.1.1" rel="stylesheet" />
@@ -51,7 +51,7 @@
         Tip 2: you can also add an image using data-image tag
     -->
       <div class="logo">
-        <a href="https://creative-tim.com/" class="simple-text logo-normal">
+        <a href="//creative-tim.com/" class="simple-text logo-normal">
           تیم خلاق
         </a>
       </div>
@@ -142,7 +142,7 @@
                 </a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="//example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="material-icons">notifications</i>
                   <span class="notification">۵</span>
                   <p class="d-lg-none d-md-block">
@@ -590,8 +590,8 @@
                 <div class="card-header card-header-primary">
                   <h3 class="card-title">اعلان ها</h3>
                   <p class="card-category">ایجاد شده توسط دوست ما
-                    <a target="_blank" href="https://github.com/mouse0270">Robert McIntosh</a>. لطفا
-                    <a href="http://bootstrap-notify.remabledesigns.com/" target="_blank">مستندات کامل </a> را مشاهده بکنید.
+                    <a target="_blank" href="//github.com/mouse0270">Robert McIntosh</a>. لطفا
+                    <a href="//bootstrap-notify.remabledesigns.com/" target="_blank">مستندات کامل </a> را مشاهده بکنید.
                   </p>
                 </div>
                 <div class="card-body">
@@ -644,22 +644,22 @@
             <nav class="float-left">
               <ul>
                 <li>
-                  <a href="https://www.creative-tim.com">
+                  <a href="//www.creative-tim.com">
                     تیم خلاق
                   </a>
                 </li>
                 <li>
-                  <a href="https://creative-tim.com/presentation">
+                  <a href="//creative-tim.com/presentation">
                     درباره ما
                   </a>
                 </li>
                 <li>
-                  <a href="http://blog.creative-tim.com">
+                  <a href="//blog.creative-tim.com">
                     بلاگ
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.creative-tim.com/license">
+                  <a href="//www.creative-tim.com/license">
                     اجازه نامه
                   </a>
                 </li>
@@ -671,7 +671,7 @@
                 document.write(new Date().getFullYear())
               </script>, ساخته شده با
               <i class="material-icons">favorite</i> توسط
-              <a href="https://www.creative-tim.com" target="_blank">تیم خلاق</a> برای وب بهتر.
+              <a href="//www.creative-tim.com" target="_blank">تیم خلاق</a> برای وب بهتر.
             </div>
           </div>
         </footer>
@@ -684,7 +684,7 @@
     <script src="{{ asset('material') }}/js/plugins/perfect-scrollbar.jquery.min.js"></script>
     
     <!--  Google Maps Plugin    -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE'"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE'"></script>
     <!-- Chartist JS -->
     <script src="{{ asset('material') }}/js/plugins/chartist.min.js"></script>
     <!--  Notifications Plugin    -->

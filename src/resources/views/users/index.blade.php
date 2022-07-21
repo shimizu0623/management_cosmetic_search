@@ -7,7 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Extra details for Live View on GitHub Pages -->
     <!-- Canonical SEO -->
-    <link rel="canonical" href="https://www.creative-tim.com/product/material-dashboard-laravel" />
+    <link rel="canonical" href="//www.creative-tim.com/product/material-dashboard-laravel" />
 
 
     <!--  Social tags      -->
@@ -19,7 +19,7 @@
     <meta itemprop="name" content="Material Dashboard Laravel by Creative Tim">
     <meta itemprop="description" content="Material Dashboard Laravel is a Free Material Bootstrap Admin Preset for Laravel with a fresh, new design inspired by Google's Material Design.">
 
-    <meta itemprop="image" content="https://s3.amazonaws.com/creativetim_bucket/products/154/opt_md_laravel_thumbnail.jpg">
+    <meta itemprop="image" content="//s3.amazonaws.com/creativetim_bucket/products/154/opt_md_laravel_thumbnail.jpg">
 
 
     <!-- Twitter Card data -->
@@ -29,15 +29,15 @@
 
     <meta name="twitter:description" content="Material Dashboard Laravel is a Free Material Bootstrap Admin Preset for Laravel with a fresh, new design inspired by Google's Material Design.">
     <meta name="twitter:creator" content="@creativetim">
-    <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/154/opt_md_laravel_thumbnail.jpg">
+    <meta name="twitter:image" content="//s3.amazonaws.com/creativetim_bucket/products/154/opt_md_laravel_thumbnail.jpg">
 
 
     <!-- Open Graph data -->
     <meta property="fb:app_id" content="655968634437471">
     <meta property="og:title" content="Material Dashboard Laravel by Creative Tim" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://material-dashboard-laravel.creative-tim.com/" />
-    <meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/154/opt_md_laravel_thumbnail.jpg"/>
+    <meta property="og:url" content="//material-dashboard-laravel.creative-tim.com/" />
+    <meta property="og:image" content="//s3.amazonaws.com/creativetim_bucket/products/154/opt_md_laravel_thumbnail.jpg"/>
     <meta property="og:description" content="Material Dashboard Laravel is a Free Material Bootstrap Admin Preset for Laravel with a fresh, new design inspired by Google's Material Design." />
     <meta property="og:site_name" content="Creative Tim" />
     
@@ -46,8 +46,8 @@
     <link rel="icon" type="image/png" href="{{ asset('material') }}/img/favicon.png">
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
     <link href="{{ asset('material') }}/css/material-dashboard.css?v=2.1.3" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
@@ -56,14 +56,14 @@
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-NKDMSK6');</script>
       <!-- End Google Tag Manager -->
 
     </head>
   <body class="clickup-chrome-ext_installed">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6"
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NKDMSK6"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
                   <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -76,7 +76,7 @@
                   Tip 2: you can also add an image using data-image tag
               -->
               <div class="logo">
-                <a href="https://creative-tim.com/" class="simple-text logo-normal">
+                <a href="//creative-tim.com/" class="simple-text logo-normal">
                   {{ __('Creative Tim') }}
                 </a>
               </div>
@@ -191,7 +191,7 @@
         </a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link" href="//example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="material-icons">notifications</i>
           <span class="notification">5</span>
           <p class="d-lg-none d-md-block">
@@ -293,7 +293,7 @@
     <script>
       document.write(new Date().getFullYear())
     </script>, made with <i class="material-icons">favorite</i> by
-    <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> and <a href="https://www.updivision.com" target="_blank">UPDIVISION</a> for a better web.
+    <a href="//www.creative-tim.com" target="_blank">Creative Tim</a> and <a href="//www.updivision.com" target="_blank">UPDIVISION</a> for a better web.
   </div>
 </div>
 </footer>
@@ -311,30 +311,30 @@
         <script src="{{ asset('material') }}/js/plugins/sweetalert2.js"></script>
         <!-- Forms Validations Plugin -->
         <script src="{{ asset('material') }}/js/plugins/jquery.validate.min.js"></script>
-        <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+        <!-- Plugin for the Wizard, full documentation here: //github.com/VinceG/twitter-bootstrap-wizard -->
         <script src="{{ asset('material') }}/js/plugins/jquery.bootstrap-wizard.js"></script>
         <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
         <script src="{{ asset('material') }}/js/plugins/bootstrap-selectpicker.js"></script>
-        <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+        <!--  Plugin for the DateTimePicker, full documentation here: //eonasdan.github.io/bootstrap-datetimepicker/ -->
         <script src="{{ asset('material') }}/js/plugins/bootstrap-datetimepicker.min.js"></script>
-        <!--  DataTables.net Plugin, full documentation here: https://datatables.net/  -->
+        <!--  DataTables.net Plugin, full documentation here: //datatables.net/  -->
         <script src="{{ asset('material') }}/js/plugins/jquery.dataTables.min.js"></script>
-        <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+        <!--	Plugin for Tags, full documentation here: //github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
         <script src="{{ asset('material') }}/js/plugins/bootstrap-tagsinput.js"></script>
         <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
         <script src="{{ asset('material') }}/js/plugins/jasny-bootstrap.min.js"></script>
-        <!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->
+        <!--  Full Calendar Plugin, full documentation here: //github.com/fullcalendar/fullcalendar    -->
         <script src="{{ asset('material') }}/js/plugins/fullcalendar.min.js"></script>
         <!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
         <script src="{{ asset('material') }}/js/plugins/jquery-jvectormap.js"></script>
         <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
         <script src="{{ asset('material') }}/js/plugins/nouislider.min.js"></script>
         <!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support SweetAlert -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
         <!-- Library for adding dinamically elements -->
         <script src="{{ asset('material') }}/js/plugins/arrive.min.js"></script>
         <!--  Google Maps Plugin    -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE'"></script>
+        <script src="//maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE'"></script>
         <!-- Chartist JS -->
         <script src="{{ asset('material') }}/js/plugins/chartist.min.js"></script>
         <!--  Notifications Plugin    -->
@@ -372,7 +372,7 @@
             }
         </script>
         <noscript>
-          <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=111649226022273&ev=PageView&noscript=1" />
+          <img height="1" width="1" style="display:none" src="//www.facebook.com/tr?id=111649226022273&ev=PageView&noscript=1" />
         </noscript>
         @stack('js')
     </body>
