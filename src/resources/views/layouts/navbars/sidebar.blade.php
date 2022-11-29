@@ -23,6 +23,12 @@
           <p>Leave Reasons</p>
         </a>
       </li>
+      <li class="nav-item{{ $activePage == 'requests' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('createSkinType') }}">
+          <i class="material-icons">add</i>
+          <p>Create SkinType</p>
+        </a>
+      </li>
     </ul>
   </div>
 </div>
