@@ -24,7 +24,7 @@
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'requests' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('createSkinType') }}">
+        <a class="nav-link" href="{{ route('skinTypes') }}">
           <i class="material-icons">add</i>
           <p>Create SkinType</p>
         </a>
