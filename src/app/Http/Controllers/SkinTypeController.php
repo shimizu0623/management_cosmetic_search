@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\SkinType;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
+use \Symfony\Component\HttpFoundation\Response;
 
 class SkinTypeController extends Controller
 {
@@ -21,4 +24,24 @@ class SkinTypeController extends Controller
             'skinTypes' => $skinTypes
         ]);
     }
+
+    public function store(Request $request)
+    {
+        $validator = Validator::make($request->all(),[
+            'name' => 'required',
+            'detail' => 'required',
+        ]);
+
+        if ($validator->fails()){
+            return redirect('/skin_types')->with('error_message', $validator->messages());
+        }
+
+        $create = SkinType::create([
+            'name' => $request->name,
+            'detail' => $request->detail,
+        ]);
+
+        return redirect('/skin_types')->with('done_message', '登録が完了しました');
+    }
+
 }
