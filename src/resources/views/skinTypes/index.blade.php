@@ -46,20 +46,19 @@
                         <div class="card-body">
                             <label class="form-label">New SkinType Name</label>
                             <form method="post" action="/skin_types">
-                            @csrf
-                            <input name="name" class="form-control" cols="30" rows="2" onfocus="focused(this)" onfocusout="defocused(this)">
-                            @if (session('error_message'))
-                                {{ session('error_message') }}
-                            @endif
-                            <br>
-                            <label class="form-label">Detail</label>
-                            <input name="detail" class="form-control" cols="30" rows="2" onfocus="focused(this)" onfocusout="defocused(this)">
-                            @if (session('done_message'))
-                                {{ session('done_message') }}
-                            @endif
-                            <button type="submit" class="btn btn-sm bg-gradient-primary mb-0">
-                                    <i class="material-icons text-white pe-2">add</i>
-                                    Create
+                                @csrf
+                                <input name="name" class="form-control" cols="30" rows="2" onfocus="focused(this)" onfocusout="defocused(this)">
+                                <label class="form-label">Detail</label>
+                                <input name="detail" class="form-control" cols="30" rows="2" onfocus="focused(this)" onfocusout="defocused(this)">
+                                @if (session('error_message'))
+                                    @foreach (session('error_message')->all() as $message)
+                                        <p><span style="color: red;">{{ $message }}</span></p>
+                                    @endforeach
+                                @endif
+                                <br>
+                                <button type="submit" class="btn btn-sm bg-gradient-primary mb-0">
+                                        <i class="material-icons text-white pe-2">add</i>
+                                        Create
                                 </button>
                             </form>
                         </div>
