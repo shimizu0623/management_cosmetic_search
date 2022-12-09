@@ -25,6 +25,15 @@ class SkinTypeController extends Controller
         ]);
     }
 
+    public function create()
+    {
+        $skinTypes = SkinType::all();
+
+        return view('skinTypes.create', [
+            'skinTypes' => $skinTypes
+        ]);
+    }
+
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(),[
@@ -33,7 +42,7 @@ class SkinTypeController extends Controller
         ]);
 
         if ($validator->fails()){
-            return redirect('/skin_types')->with('error_message', $validator->messages());
+            return redirect('/skin_types/create')->with('error_message', $validator->messages());
         }
 
         $create = SkinType::create([
