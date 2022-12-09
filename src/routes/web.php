@@ -27,5 +27,5 @@ Auth::routes();
 Route::group(['middleware' => 'auth'], function () {
 	Route::get('/requests', [App\Http\Controllers\RequestController::class, 'index'])->name('requests');
 	Route::get('/leave_reasons', [App\Http\Controllers\LeaveReasonController::class, 'index'])->name('leaveReason');		
-	Route::resource('/skin_types', App\Http\Controllers\SkinTypeController::class, ['only' => ['index', 'store']]);
+	Route::resource('/skin_types', App\Http\Controllers\SkinTypeController::class);
 });
