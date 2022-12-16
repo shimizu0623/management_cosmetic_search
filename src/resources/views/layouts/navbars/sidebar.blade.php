@@ -30,7 +30,7 @@
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'requests' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('skin_types.store') }}">
+        <a class="nav-link" href="{{ route('skin_types.create') }}">
           <i class="material-icons">add</i>
           <p>Create SkinType</p>
         </a>
