@@ -23,8 +23,8 @@
                                 @endif
                                 <br>
                                 <button type="submit" class="btn btn-sm bg-gradient-primary mb-0">
-                                        <i class="material-icons text-white pe-2">add</i>
-                                        Create
+                                    <i class="material-icons text-white pe-2">add</i>
+                                    Create
                                 </button>
                             </form>
                         </div>
