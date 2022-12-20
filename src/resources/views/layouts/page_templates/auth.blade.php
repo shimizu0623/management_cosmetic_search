@@ -3,6 +3,8 @@
   <div class="main-panel">
     @include('layouts.navbars.navs.auth')
     @yield('content')
+    @yield('btn-dell')
+    @yield('js-validation')
     @include('layouts.footers.auth')
   </div>
 </div>

@@ -32,6 +32,15 @@
                                             <td>
                                             {{$skinType->detail}}
                                             </td>
+                                            <td>
+                                                <form method="post" action="{{ route('skin_types.destroy', ['skin_type'=>$skinType]) }}">
+                                                    @method('delete')
+                                                    @csrf
+                                                    <button type="submit" class="btn btn-sm bg-gradient-primary mb-0">
+                                                        <i class="material-icons">delete</i>
+                                                    </button>
+                                                </form>
+                                            </td>
                                         </tr>
                                     @endforeach
                                     </tbody>

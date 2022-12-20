@@ -53,4 +53,11 @@ class SkinTypeController extends Controller
         return redirect('/skin_types')->with('done_message', '登録が完了しました');
     }
 
+    public function destroy($id)
+    {
+        $skinTypeId = SkinType::find($id);
+        $skinTypeId->delete();
+
+        return redirect('/skin_types')->with('done_message', '削除が完了しました');
+    }
 }
